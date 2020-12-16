@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Container from './Container/abc';
 import { Filler } from './Filler';
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 
 const App = () => {
   const triggerText = 'Open form';
@@ -15,9 +16,9 @@ const App = () => {
       <Filler />
       <Container triggerText={triggerText} onSubmit={onSubmit} />
       <button>Hello</button>
-      
+      <AmplifySignOut />
     </div>
   );
 };
 
-export default App;
+export default withAuthenticator(App);

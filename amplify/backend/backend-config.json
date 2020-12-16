@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "cloudbankd9bace1e": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
