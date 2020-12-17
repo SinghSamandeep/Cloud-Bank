@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "cloudbankd9bace1e_identitypool_d9bace1e",
+    "identityPoolName": "cloudbank8a35c223_identitypool_8a35c223",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "cloudbd9bace1e",
-    "userPoolName": "cloudbankd9bace1e_userpool_d9bace1e",
+    "resourceNameTruncated": "cloudb8a35c223",
+    "userPoolName": "cloudbank8a35c223_userpool_8a35c223",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,10 +28,10 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "cloudbd9bace1e_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "cloudb8a35c223_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "d9bace1e",
-    "resourceName": "cloudbankd9bace1e",
+    "sharedId": "8a35c223",
+    "resourceName": "cloudbank8a35c223",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
