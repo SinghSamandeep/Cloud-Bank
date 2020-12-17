@@ -17,21 +17,21 @@ export const Form = ({ onSubmit }) => {
         />
       </div>
       <div className="form-group">
+        <label htmlFor="account">Account Number</label>
+        <input
+          type="number"
+          className="form-control"
+          id="account"
+          placeholder="Enter Mobile number, you mobile number will be account number"
+        />
+      </div>
+      <div className="form-group">
         <label htmlFor="password">Password</label>
         <input
           type="password"
           className="form-control"
-          id="pasword"
+          id="password"
           placeholder="Password"
-        />
-      </div>
-      <div className="form-group">
-        <label htmlFor="Account Number">Account Number</label>
-        <input
-          type="number"
-          className="form-control"
-          id="number"
-          placeholder="Enter Mobile number, you mobile number will be account number"
         />
       </div>
       <div className="form-group">

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Modal } from '../Modal';
+import { Modal1 }  from '../Modal/index1';
 import TriggerButton from '../TriggerButton';
-export class Container extends Component {
+export class Container1 extends Component {
   state = { isShown: false };
   showModal = () => {
     this.setState({ isShown: true }, () => {
@@ -36,7 +36,7 @@ export class Container extends Component {
           triggerText={this.props.triggerText}
         />
         {this.state.isShown ? (
-          <Modal
+          <Modal1
             onSubmit={this.props.onSubmit}
             modalRef={(n) => (this.modal = n)}
             buttonRef={(n) => (this.closeButton = n)}
